@@ -18,5 +18,5 @@
   "keywords": ["Google Drive", "video player", "react", "vite"],
   "author": "Gustavo A. <gustavo.atencio@outlook.com>",
   "license": "MIT",
-  "description": "Video player for files in Google Drive"
+  "description": "Video player for your files in Google Drive"
 }
