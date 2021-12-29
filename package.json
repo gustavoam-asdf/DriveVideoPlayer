@@ -12,10 +12,21 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.28.0",
     "vite": "^2.7.2"
   },
-  "main": "vite.config.js",
-  "keywords": ["Google Drive", "video player", "react", "vite"],
+  "main": "src/main.jsx",
+  "keywords": [
+    "Google Drive",
+    "video player",
+    "react",
+    "vite"
+  ],
   "author": "Gustavo A. <gustavo.atencio@outlook.com>",
   "license": "MIT",
   "description": "Video player for your files in Google Drive"
