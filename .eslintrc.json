@@ -4,10 +4,7 @@
     "es2021": true,
     "node": true
   },
-  "extends": [
-    "plugin:react/recommended",
-    "standard"
-  ],
+  "extends": ["plugin:react/recommended", "standard", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -15,12 +12,11 @@
     "ecmaVersion": 2021,
     "sourceType": "module"
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react", "prettier"],
   "rules": {
+    "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
-    "space-before-function-paren": "off"
+    "quote-props": ["error", "as-needed"]
   },
   "settings": {
     "react": {
