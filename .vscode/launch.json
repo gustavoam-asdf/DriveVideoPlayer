@@ -4,7 +4,7 @@
     {
       "type": "edge",
       "request": "launch",
-      "name": "Launch",
+      "name": "project-name",
       "url": "http://localhost:3000",
       "webRoot": "${workspaceFolder}"
     }

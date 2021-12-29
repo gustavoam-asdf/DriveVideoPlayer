@@ -1,5 +1,5 @@
 {
-  "name": "drive-video-player",
+  "name": "project-name",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --host",
@@ -26,13 +26,8 @@
     "vite": "^2.7.2"
   },
   "main": "src/main.jsx",
-  "keywords": [
-    "Google Drive",
-    "video player",
-    "react",
-    "vite"
-  ],
-  "author": "Gustavo A. <gustavo.atencio@outlook.com>",
+  "keywords": [],
+  "author": "",
   "license": "MIT",
-  "description": "Video player for your files in Google Drive"
+  "description": ""
 }
