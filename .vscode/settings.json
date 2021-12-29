@@ -7,7 +7,7 @@
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
-  "[dotenv]": {
+  "[env]": {
     "editor.defaultFormatter": "IronGeek.vscode-env"
   },
   "eslint.validate": [
@@ -15,5 +15,8 @@
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "files.associations": {
+    "*.env*": "env"
+  }
 }
